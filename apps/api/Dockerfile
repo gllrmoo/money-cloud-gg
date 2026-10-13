@@ -6,4 +6,4 @@ COPY apps/api/src ./src
 ENV NODE_ENV=production
 EXPOSE 3001
 USER node
-CMD ["node", "src/main.js"]
+CMD ["node", "src/server.js"]
